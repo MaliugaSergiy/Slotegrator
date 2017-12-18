@@ -64,6 +64,9 @@ $(function () {
     setTimeout(function () {
         $(".preloaderOverlay").addClass("dn");
     }, 2000);
+    setTimeout(function () {
+        $(".preloaderOverlay").css("display", "none");
+    }, 4000);
 
 
 });
